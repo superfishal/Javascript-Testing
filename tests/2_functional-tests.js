@@ -54,7 +54,7 @@ suite("Functional Tests", function () {
         .request(server)
         .put("/travellers")
         .send({
-          surname: "Colombo",
+          surname: "da Verrazzano",
         })
         .end(function (err, res) {
           assert.equal(res.status, 200);
